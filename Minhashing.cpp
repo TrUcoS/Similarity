@@ -18,7 +18,7 @@ PermutationMatrix<Dynamic, Dynamic> permutingIdentityMatrix(int rowCount){
 
 	PermutationMatrix<Dynamic, Dynamic> perm(rowCount);
 	perm.setIdentity();
-	std::cout << "Insert number for random number generator\nd";
+	std::cout << "Insert number for random number generator\n";
 	
 	int tmp;
 	std::cin >> tmp;
